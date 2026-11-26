@@ -1,24 +1,25 @@
 {
   "format": "pankti-stationary-foundry-template",
   "version": 1,
-  "name": "Ruled - Dash - Index Column",
-  "savedAt": "2026-11-26T07:46:01.667266Z",
+  "name": "Index Page",
+  "savedAt": "2026-11-26T16:30:23.546Z",
   "document": {
     "format": "pankti-stationary-foundry",
     "version": 5,
-    "savedAt": "2026-11-26T07:33:05.407Z",
+    "savedAt": "2026-11-26T16:30:23.546Z",
     "page": {
       "margins": {
         "top": 10,
         "right": 5,
-        "bottom": 10,
+        "bottom": 15,
         "left": 5
       }
     },
     "layers": [
       {
-        "id": "8c373739-1a55-49dc-a35b-621147239454",
-        "name": "Horizontal Dashed Rules",
+        "id": "0bda09a4-99c2-4be4-8663-3c05754a070a",
+        "type": "rectangle",
+        "name": "Rectangle 1",
         "visible": true,
         "gaps": {
           "top": 0,
@@ -26,51 +27,88 @@
           "bottom": 0,
           "left": 0
         },
-        "horizontalAlign": "left",
-        "verticalAlign": "middle",
+        "horizontalAlign": "center",
+        "verticalAlign": "bottom",
         "strokes": [
           {
-            "thickness": 0.25,
+            "thickness": 0.5,
+            "color": "#7f7f7f",
+            "pattern": {
+              "id": "solid",
+              "name": "Solid",
+              "elements": []
+            }
+          }
+        ],
+        "widthMm": 100,
+        "heightMm": 50,
+        "spanWidth": true,
+        "spanHeight": true,
+        "roundedTogether": true,
+        "cornerRadiusMm": 2,
+        "corners": {
+          "topLeft": 0,
+          "topRight": 0,
+          "bottomRight": 0,
+          "bottomLeft": 0
+        },
+        "fillColor": null
+      },
+      {
+        "id": "1fe43a4e-15bb-4a5b-81f7-9dd50c6a982d",
+        "type": "rows",
+        "name": "Rows 2",
+        "visible": true,
+        "gaps": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "horizontalAlign": "center",
+        "verticalAlign": "bottom",
+        "strokes": [
+          {
+            "thickness": 0.5,
             "color": "#8f8f8f",
             "pattern": {
-              "id": "dashed",
-              "name": "Dashed",
+              "id": "dotted",
+              "name": "Dotted",
               "elements": [
                 {
-                  "kind": "dash",
-                  "lengthMm": 2,
-                  "gapMm": 1
+                  "kind": "dot",
+                  "gapMm": 1.25
                 }
               ]
             }
           }
         ],
-        "type": "rows",
-        "rows": 27,
+        "rows": 25,
         "rowHeightMm": 10,
-        "showTop": false,
-        "showBottom": true,
+        "showTop": true,
+        "showBottom": false,
         "showCheckboxes": false,
         "checkboxOffsetMm": 5,
         "checkboxSide": "start",
         "checkboxColor": "#111318"
       },
       {
-        "id": "95599540-900c-4e08-9396-88d645c5c2a3",
-        "name": "Index Column Divider",
+        "id": "c2e98764-afe2-4c99-b31c-5fb1bea04e69",
+        "type": "line",
+        "name": "Line 3",
         "visible": true,
         "gaps": {
-          "top": 3,
+          "top": 0,
           "right": 0,
-          "bottom": 3,
+          "bottom": 0,
           "left": 20
         },
         "horizontalAlign": "left",
-        "verticalAlign": "top",
+        "verticalAlign": "middle",
         "strokes": [
           {
             "thickness": 0.25,
-            "color": "#6f6f6f",
+            "color": "#7f7f7f",
             "pattern": {
               "id": "solid",
               "name": "Solid",
@@ -79,8 +117,8 @@
           },
           {
             "thickness": 0.25,
-            "gap": 0.5,
-            "color": "#6f6f6f",
+            "gap": 0.75,
+            "color": "#7f7f7f",
             "pattern": {
               "id": "solid",
               "name": "Solid",
@@ -88,21 +126,20 @@
             }
           }
         ],
-        "type": "line",
         "orientation": "vertical",
         "span": true,
         "lengthMm": 100
       },
       {
-        "id": "99ce277a-60be-4878-b3d8-5df3bb07e147",
-        "type": "line",
-        "name": "Single Horizontal Rule Top",
+        "id": "0fc203be-d62f-4bd0-907e-43f985c765c6",
+        "type": "text",
+        "name": "Text 4",
         "visible": true,
         "gaps": {
-          "top": 3,
+          "top": 7.5,
           "right": 0,
           "bottom": 0,
-          "left": 0
+          "left": 25.5
         },
         "horizontalAlign": "left",
         "verticalAlign": "top",
@@ -112,9 +149,13 @@
             "color": "#111318"
           }
         ],
-        "orientation": "horizontal",
-        "span": true,
-        "lengthMm": 100
+        "text": "Index",
+        "fontFamily": "Arial",
+        "fontSizeMm": 8,
+        "fontWeight": 400,
+        "color": "#7f7f7f",
+        "baseline": "alphabetic",
+        "fillColor": null
       }
     ],
     "patterns": [
@@ -161,10 +202,8 @@
       }
     ],
     "colors": [
-      "#959595",
-      "#6f6f6f",
-      "#8f8f8f",
-      "#111318"
+      "#7f7f7f",
+      "#8f8f8f"
     ]
   }
 }

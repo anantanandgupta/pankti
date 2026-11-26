@@ -1,49 +1,44 @@
 {
   "format": "pankti-stationary-foundry-template",
   "version": 1,
-  "name": "Ruled - Dash Dot - Checklist - Date Box",
-  "savedAt": "2026-11-26T07:46:01.666706Z",
+  "name": "Doted Rules - Index Column - Date Field",
+  "savedAt": "2026-11-26T16:15:50.626Z",
   "document": {
     "format": "pankti-stationary-foundry",
     "version": 5,
-    "savedAt": "2026-11-26T07:39:17.310Z",
+    "savedAt": "2026-11-26T16:15:50.626Z",
     "page": {
       "margins": {
         "top": 10,
         "right": 5,
-        "bottom": 10,
+        "bottom": 15,
         "left": 5
       }
     },
     "layers": [
       {
-        "id": "6f9a15c7-d483-453e-ad63-16dc4091334a",
-        "name": "Horizontal Rules Dash Dot",
+        "id": "fa14bf5d-2bad-4e22-95d0-b8ec72cac52b",
+        "name": "Horizontal Doted Rules",
         "visible": true,
         "gaps": {
           "top": 0,
           "right": 0,
-          "bottom": 5,
+          "bottom": 0,
           "left": 0
         },
-        "horizontalAlign": "left",
+        "horizontalAlign": "center",
         "verticalAlign": "bottom",
         "strokes": [
           {
-            "thickness": 0.25,
-            "color": "#888888",
+            "thickness": 0.5,
+            "color": "#939393",
             "pattern": {
-              "id": "dash-dot",
-              "name": "Dash-dot",
+              "id": "dotted",
+              "name": "Dotted",
               "elements": [
                 {
-                  "kind": "dash",
-                  "lengthMm": 3,
-                  "gapMm": 1
-                },
-                {
                   "kind": "dot",
-                  "gapMm": 1
+                  "gapMm": 1.25
                 }
               ]
             }
@@ -54,65 +49,27 @@
         "rowHeightMm": 10,
         "showTop": false,
         "showBottom": true,
-        "showCheckboxes": true,
-        "checkboxOffsetMm": 18.5,
+        "showCheckboxes": false,
+        "checkboxOffsetMm": 5,
         "checkboxSide": "start",
-        "checkboxColor": "#888888"
+        "checkboxColor": "#111318"
       },
       {
-        "id": "7b61aaf1-e00b-403d-ab5b-2c37f7b1270f",
-        "name": "Date Box",
-        "visible": true,
-        "gaps": {
-          "top": 1,
-          "right": 0,
-          "bottom": 0,
-          "left": 0
-        },
-        "horizontalAlign": "right",
-        "verticalAlign": "top",
-        "strokes": [
-          {
-            "thickness": 0.5,
-            "color": "#888888",
-            "pattern": {
-              "id": "solid",
-              "name": "Solid",
-              "elements": []
-            }
-          }
-        ],
-        "type": "rectangle",
-        "widthMm": 72,
-        "heightMm": 12,
-        "spanWidth": false,
-        "spanHeight": false,
-        "roundedTogether": true,
-        "cornerRadiusMm": 1.5,
-        "corners": {
-          "topLeft": 0,
-          "topRight": 0,
-          "bottomRight": 0,
-          "bottomLeft": 0
-        },
-        "fillColor": "#ffffff"
-      },
-      {
-        "id": "ab7737df-2d0c-4e1e-aea6-7adebab6fbb2",
+        "id": "027dbd0c-a15e-4d39-b029-adffd2cbc32c",
         "name": "Index Column Divider",
         "visible": true,
         "gaps": {
-          "top": 21.5,
+          "top": 11,
           "right": 0,
-          "bottom": 5,
-          "left": 15
+          "bottom": 0,
+          "left": 20
         },
         "horizontalAlign": "left",
         "verticalAlign": "middle",
         "strokes": [
           {
             "thickness": 0.25,
-            "color": "#888888",
+            "color": "#5f5f5f",
             "pattern": {
               "id": "solid",
               "name": "Solid",
@@ -122,7 +79,7 @@
           {
             "thickness": 0.25,
             "gap": 0.5,
-            "color": "#888888",
+            "color": "#5f5f5f",
             "pattern": {
               "id": "solid",
               "name": "Solid",
@@ -136,12 +93,40 @@
         "lengthMm": 100
       },
       {
-        "id": "64d48807-ff77-4de2-9dea-2d9f1c0a8cfd",
+        "id": "5884e6cd-4897-4b52-b2da-b65cc3ccaf36",
+        "name": "Top Thick Rule",
+        "visible": true,
+        "gaps": {
+          "top": 11,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "horizontalAlign": "center",
+        "verticalAlign": "top",
+        "strokes": [
+          {
+            "thickness": 0.75,
+            "color": "#5f5f5f",
+            "pattern": {
+              "id": "solid",
+              "name": "Solid",
+              "elements": []
+            }
+          }
+        ],
+        "type": "line",
+        "orientation": "horizontal",
+        "span": true,
+        "lengthMm": 100
+      },
+      {
+        "id": "e6ba5861-938c-4476-a7bc-f818d6890eb6",
         "name": "Date Field",
         "visible": true,
         "gaps": {
-          "top": 4.5,
-          "right": 6,
+          "top": 4,
+          "right": 5,
           "bottom": 0,
           "left": 0
         },
@@ -154,12 +139,50 @@
           }
         ],
         "type": "text",
-        "text": "Dated: ____/____/____________",
-        "fontFamily": "Monaco",
+        "text": "Date: ___/___/________",
+        "fontFamily": "Verdana",
         "fontSizeMm": 3.5,
         "fontWeight": 400,
-        "color": "#111318",
+        "color": "#5f5f5f",
         "baseline": "alphabetic",
+        "fillColor": null
+      },
+      {
+        "id": "76d584f2-d64d-4d41-a8fb-0f0d60dfac1b",
+        "name": "Date Box",
+        "visible": false,
+        "gaps": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "horizontalAlign": "right",
+        "verticalAlign": "top",
+        "strokes": [
+          {
+            "thickness": 0.5,
+            "color": "#5f5f5f",
+            "pattern": {
+              "id": "solid",
+              "name": "Solid",
+              "elements": []
+            }
+          }
+        ],
+        "type": "rectangle",
+        "widthMm": 54,
+        "heightMm": 10,
+        "spanWidth": false,
+        "spanHeight": false,
+        "roundedTogether": true,
+        "cornerRadiusMm": 1,
+        "corners": {
+          "topLeft": 0,
+          "topRight": 0,
+          "bottomRight": 0,
+          "bottomLeft": 0
+        },
         "fillColor": null
       }
     ],
@@ -207,11 +230,8 @@
       }
     ],
     "colors": [
-      "#111318",
-      "#999999",
-      "#f2efe6",
-      "#ffffff",
-      "#888888"
+      "#939393",
+      "#5f5f5f"
     ]
   }
 }

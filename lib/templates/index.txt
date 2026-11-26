@@ -1,2 +1,5 @@
-dated-checklist.psft
-ruled-page.psft
+solid-26-rules-date_field-index_column.psft
+doted-26-rules-date_field-index_column.psft
+dash-26-rules-date_field-index_column.psft
+index_page.psft
+task-list.psft
