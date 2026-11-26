@@ -1,0 +1,170 @@
+{
+  "format": "pankti-stationary-foundry-template",
+  "version": 1,
+  "name": "Ruled - Dash - Index Column",
+  "savedAt": "2026-11-26T07:46:01.667266Z",
+  "document": {
+    "format": "pankti-stationary-foundry",
+    "version": 5,
+    "savedAt": "2026-11-26T07:33:05.407Z",
+    "page": {
+      "margins": {
+        "top": 10,
+        "right": 5,
+        "bottom": 10,
+        "left": 5
+      }
+    },
+    "layers": [
+      {
+        "id": "8c373739-1a55-49dc-a35b-621147239454",
+        "name": "Horizontal Dashed Rules",
+        "visible": true,
+        "gaps": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "horizontalAlign": "left",
+        "verticalAlign": "middle",
+        "strokes": [
+          {
+            "thickness": 0.25,
+            "color": "#8f8f8f",
+            "pattern": {
+              "id": "dashed",
+              "name": "Dashed",
+              "elements": [
+                {
+                  "kind": "dash",
+                  "lengthMm": 2,
+                  "gapMm": 1
+                }
+              ]
+            }
+          }
+        ],
+        "type": "rows",
+        "rows": 27,
+        "rowHeightMm": 10,
+        "showTop": false,
+        "showBottom": true,
+        "showCheckboxes": false,
+        "checkboxOffsetMm": 5,
+        "checkboxSide": "start",
+        "checkboxColor": "#111318"
+      },
+      {
+        "id": "95599540-900c-4e08-9396-88d645c5c2a3",
+        "name": "Index Column Divider",
+        "visible": true,
+        "gaps": {
+          "top": 3,
+          "right": 0,
+          "bottom": 3,
+          "left": 20
+        },
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "strokes": [
+          {
+            "thickness": 0.25,
+            "color": "#6f6f6f",
+            "pattern": {
+              "id": "solid",
+              "name": "Solid",
+              "elements": []
+            }
+          },
+          {
+            "thickness": 0.25,
+            "gap": 0.5,
+            "color": "#6f6f6f",
+            "pattern": {
+              "id": "solid",
+              "name": "Solid",
+              "elements": []
+            }
+          }
+        ],
+        "type": "line",
+        "orientation": "vertical",
+        "span": true,
+        "lengthMm": 100
+      },
+      {
+        "id": "99ce277a-60be-4878-b3d8-5df3bb07e147",
+        "type": "line",
+        "name": "Single Horizontal Rule Top",
+        "visible": true,
+        "gaps": {
+          "top": 3,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "strokes": [
+          {
+            "thickness": 0.5,
+            "color": "#111318"
+          }
+        ],
+        "orientation": "horizontal",
+        "span": true,
+        "lengthMm": 100
+      }
+    ],
+    "patterns": [
+      {
+        "id": "solid",
+        "name": "Solid",
+        "elements": []
+      },
+      {
+        "id": "dotted",
+        "name": "Dotted",
+        "elements": [
+          {
+            "kind": "dot",
+            "gapMm": 1.25
+          }
+        ]
+      },
+      {
+        "id": "dashed",
+        "name": "Dashed",
+        "elements": [
+          {
+            "kind": "dash",
+            "lengthMm": 2,
+            "gapMm": 1
+          }
+        ]
+      },
+      {
+        "id": "dash-dot",
+        "name": "Dash-dot",
+        "elements": [
+          {
+            "kind": "dash",
+            "lengthMm": 3,
+            "gapMm": 1
+          },
+          {
+            "kind": "dot",
+            "gapMm": 1
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "#959595",
+      "#6f6f6f",
+      "#8f8f8f",
+      "#111318"
+    ]
+  }
+}
